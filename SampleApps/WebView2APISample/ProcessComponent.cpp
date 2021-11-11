@@ -232,11 +232,11 @@ void ProcessComponent::CrashRenderProcess()
     m_webView->Navigate(L"edge://kill");
 }
 
-//! [ProcessInfoChanged]
+//! [ProcessInfosChanged]
 void ProcessComponent::PerformanceInfo()
 {
 }
-//! [ProcessInfoChanged]
+//! [ProcessInfosChanged]
 /*static*/ void ProcessComponent::EnsureProcessIsClosed(UINT processId, int timeoutMs)
 {
     UINT exitCode = 1;

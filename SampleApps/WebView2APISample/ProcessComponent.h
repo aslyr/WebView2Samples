@@ -48,5 +48,5 @@ private:
 
     UINT m_browserProcessId = 0;
     EventRegistrationToken m_processFailedToken = {};
-    EventRegistrationToken m_processInfoChangedToken = {};
+    EventRegistrationToken m_processInfosChangedToken = {};
 };
